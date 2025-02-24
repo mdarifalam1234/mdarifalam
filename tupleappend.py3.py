@@ -1,0 +1,8 @@
+a=(1,2,3)
+print(a)
+b=list(a)
+print(b)
+num=int(input("Gate a number="))
+b.append(num)
+c=tuple(b)
+print(c)
